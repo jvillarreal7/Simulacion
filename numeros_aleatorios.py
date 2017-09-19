@@ -3,8 +3,10 @@ from statistics import mean, variance
 
 # Se crea una lista que alojará los números aleatorios generados.
 num_list = []
+
 # Se pide al usuario la cantidad de números a generar.
 num_range = int(input('Numeros a generar:\n'))
+
 # Dada la cantidad de números a generar:
 for x in range(num_range):
     # -> Genera un número real uniformemente aleatorio entre 10 y 20 inclusive.
